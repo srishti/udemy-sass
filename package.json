@@ -1,0 +1,20 @@
+{
+	"name": "learn-sass",
+	"version": "1.0.0",
+	"description": "## Table of Contents [Section 1: Welcome](#01---welcome)",
+	"main": "index.js",
+	"scripts": {
+		"watch": "node-sass -o css scss/main.scss -w"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/srishti/udemy-sass.git"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/srishti/udemy-sass/issues"
+	},
+	"homepage": "https://github.com/srishti/udemy-sass#readme"
+}
