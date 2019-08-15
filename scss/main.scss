@@ -10,6 +10,20 @@ $font-sm: 20px;
 
 .nav {
 	background-color: $color-primary;
+
+	ul li {
+		list-style: none;
+	}
+
+	a {
+		text-decoration: none;
+		font-size: $font-sm;
+		color: $color-secondary;
+
+		&:hover {
+			color: $color-tertiary;
+		}
+	}
 }
 
 .banner h1 {
