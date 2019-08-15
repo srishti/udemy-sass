@@ -26,26 +26,21 @@ $font-sm: 20px;
 	}
 }
 
-@mixin headingsStyles($fontSize: 50px) {
-	font-size: $fontSize;
-	color: $color-secondary;
+.heading {
+	color: $color-primary;
+	font-size: $font-lg;
+	background-color: $color-secondary;
 	text-align: center;
 }
 
-@mixin transition($param...) {
-	transition: $param;
-}
+h1 {
+	@extend .heading;
 
-.banner h1 {
-	@include headingsStyles($font-lg);
+	&:hover {
+		background-color: green;
+	}
 }
 
 .footer h3 {
-	@include headingsStyles;
-	@include transition(color .5s, background-color 1s);
-
-	&:hover {
-		color: $color-tertiary;
-		background-color: $color-primary;
-	}
+	@extend h1;
 }
