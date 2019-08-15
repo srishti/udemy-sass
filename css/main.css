@@ -17,6 +17,10 @@
   text-align: center; }
 
 .footer h3 {
-  font-size: 30px;
+  font-size: 50px;
   color: gray;
-  text-align: center; }
+  text-align: center;
+  transition: color 0.5s, background-color 1s; }
+  .footer h3:hover {
+    color: royalblue;
+    background-color: orange; }
