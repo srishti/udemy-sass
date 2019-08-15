@@ -9,7 +9,7 @@ $font-md: 30px;
 $font-sm: 20px;
 
 .nav {
-	background-color: $color-primary;
+	background-color: mix(blue, green, 10%);
 
 	ul li {
 		list-style: none;
@@ -43,4 +43,16 @@ h1 {
 
 .footer h3 {
 	@extend h1;
+}
+
+@function fontSize($size: 25px) {
+	@return $size * 2;
+}
+
+.banner p {
+	font-size: fontSize($font-sm);
+}
+
+.footer p {
+	font-size: fontSize(30px);
 }

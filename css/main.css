@@ -1,7 +1,7 @@
 /* global-scoped variables for color */
 /* global-scoped variables for font-size */
 .nav {
-  background-color: orange; }
+  background-color: #00731a; }
   .nav ul li {
     list-style: none; }
   .nav a {
@@ -19,3 +19,9 @@
 
 h1:hover, .footer h3:hover {
   background-color: green; }
+
+.banner p {
+  font-size: 40px; }
+
+.footer p {
+  font-size: 60px; }
