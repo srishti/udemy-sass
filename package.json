@@ -4,7 +4,7 @@
 	"description": "## Table of Contents [Section 1: Welcome](#01---welcome)",
 	"main": "index.js",
 	"scripts": {
-		"watch": "node-sass -o css scss/main.scss -w"
+		"watch": "node-sass -o css scss -w"
 	},
 	"repository": {
 		"type": "git",

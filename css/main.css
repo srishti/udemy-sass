@@ -1,3 +1,7 @@
+.footer h3 {
+  font-style: italic;
+  border: 3px solid blue; }
+
 /* global-scoped variables for color */
 /* global-scoped variables for font-size */
 .nav {
